@@ -145,6 +145,203 @@ int main (int argc, char *argv[])
     }
     
 }
+void soal1(int *skor)
+{
+    char jawaban[2];
+    printf("1. Rumus kimia air adalah?\n");
+    printf("A. O2 \n");
+    printf("B. H2O \n");
+    printf("C. CO2 \n");
+    printf("D. H3O \n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'B')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
 
+void soal2(int *skor)
+{
+    char jawaban[2];
+    printf("2. Siapa penemu lampu pijar ?\n");
+    printf("A. Alessandro Cruto \n");
+    printf("B. Thomas Alva Edison \n");
+    printf("C. Nikola Tesla \n");
+    printf("D. Galileo Galilei\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'B')
+    {
+        printf("JAWABAN BENAR!\n");
+        skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal3(intskor)
+{
+    char jawaban[2];
+    printf("3. Apa nama ibukota Australia ? \n");
+    printf("A. Perth \n");
+    printf("B. Sydney \n");
+    printf("C. Canberra \n");
+    printf("D. Ankara \n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'C')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal4(int *skor)
+{
+    char jawaban[2];
+    printf("4.Siapakah pemenang SEA GAMES sepak bola tahun 2023 yang diadakan di kamboja\n");
+    printf("A.Filipina \n");
+    printf("B.Myanmar \n");
+    printf("C.Thailand \n");
+    printf("D.Indonesia \n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'D')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal5(int *skor)
+{
+    char jawaban[2];
+    printf("5.Siapkah ketua PDIP Umum?\n");
+    printf("A.Megawati\n");
+    printf("B.Puan Maharani\n");
+    printf("C.Bung Rocky\n");
+    printf("D.Ruhud Sitompul\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'A')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal6(int *skor)
+{
+    char jawaban[2];
+    printf("6.siapakah presiden indonesia ke-3\n");
+    printf("A.Anies baswedan\n");
+    printf("B.Soeharto\n");
+    printf("C.Bj.Habibie\n");
+    printf("D.Puan Maharani\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'C')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal7(int *skor)
+{
+    char jawaban[2];
+    printf("7. Apabila nilai x=7 dan y=3, berapakah nilai X^2 + xy - 3y =\n");
+    printf("A.61 \n");
+    printf("B.49\n");
+    printf("C.57\n");
+    printf("D.65\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'A')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+void soal8(int *skor)
+{
+    char jawaban[2];
+    printf("8. Dimanakah letak Mesjid Baiturrahman yang masih kokoh setelah tsunami?\n");
+    printf("A.Bandung\n");
+    printf("B.Jakarta\n");
+    printf("C.Aceh\n");
+    printf("D.Palu\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'C')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal9(int *skor)
+{
+    char jawaban[2];
+    printf("9. Dimana letak ibu kota dari Sumatra Utara?\n");
+    printf("A.Aceh\n");
+    printf("B.Jambi\n");
+    printf("C.Riau\n");
+    printf("D.Medan\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'D')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
+
+void soal10(int *skor)
+{
+    char jawaban[2];
+    printf("10. Tanggal berapa proklamasi kemerdekaan diumumkan?\n");
+    printf("A.17 Agustus\n");
+    printf("B.19 Agustus\n");
+    printf("C.30 April\n");
+    printf("D.16 Mei\n");
+    printf("Jawab: ");
+    scanf("%s", jawaban);
+    if(jawaban[0] == 'A')
+    {
+        printf("JAWABAN BENAR!\n");
+        *skor += 1;
+    }else
+    {
+        printf("jawaban salah!\n");
+    }
+}
 return 0;
 }
