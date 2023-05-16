@@ -143,7 +143,7 @@ int main (int argc, char *argv[])
 
         }
     }
-    
+    return 0;
 }
 void soal1(int *skor)
 {
@@ -343,5 +343,140 @@ void soal10(int *skor)
         printf("jawaban salah!\n");
     }
 }
-return 0;
+
+void hadiah(int *skor)
+{
+    if(*skor == 0)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("Rp. 200.000.000,00 \n");
+        printf("Rp. 150.000.000,00 \n");
+        printf("Rp. 100.000.000,00 \n");
+        printf("Rp. 50.000.000,00 \n");
+        printf("Rp. 25.000.000,00 \n");
+        printf("Rp. 10.000.000,00 \n");
+    }else if(*skor == 1)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("Rp. 200.000.000,00 \n");
+        printf("Rp. 150.000.000,00 \n");
+        printf("Rp. 100.000.000,00 \n");
+        printf("Rp. 50.000.000,00 \n");
+        printf("Rp. 25.000.000,00 \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 2)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("Rp. 200.000.000,00 \n");
+        printf("Rp. 150.000.000,00 \n");
+        printf("Rp. 100.000.000,00 \n");
+        printf("Rp. 50.000.000,00 \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 3)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("Rp. 200.000.000,00 \n");
+        printf("Rp. 150.000.000,00 \n");
+        printf("Rp. 100.000.000,00 \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 4)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("Rp. 200.000.000,00 \n");
+        printf("Rp. 150.000.000,00 \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 5)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("Rp. 200.000.000,00 \n");
+        printf("$Rp. 150.000.000,00$ \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 6)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("Rp. 300.000.000,00 \n");
+        printf("$Rp. 200.000.000,00$ \n");
+        printf("$Rp. 150.000.000,00$ \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 7)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("Rp. 500.000.000,00 \n");
+        printf("$Rp. 300.000.000,00$ \n");
+        printf("$Rp. 200.000.000,00$ \n");
+        printf("$Rp. 150.000.000,00$ \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 8)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("Rp. 750.000.000,00 \n");
+        printf("$Rp. 500.000.000,00$ \n");
+        printf("$Rp. 300.000.000,00$ \n");
+        printf("$Rp. 200.000.000,00$ \n");
+        printf("$Rp. 150.000.000,00$ \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 9)
+    {
+        printf("Rp. 1.000.000.000,00 \n");
+        printf("$Rp. 750.000.000,00$ \n");
+        printf("$Rp. 500.000.000,00$ \n");
+        printf("$Rp. 300.000.000,00$ \n");
+        printf("$Rp. 200.000.000,00$ \n");
+        printf("$Rp. 150.000.000,00$ \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }else if(*skor == 10)
+    {
+        printf("$Rp. 1.000.000.000,00$ \n");
+        printf("$Rp. 750.000.000,00$ \n");
+        printf("$Rp. 500.000.000,00$ \n");
+        printf("$Rp. 300.000.000,00$ \n");
+        printf("$Rp. 200.000.000,00$ \n");
+        printf("$Rp. 150.000.000,00$ \n");
+        printf("$Rp. 100.000.000,00$ \n");
+        printf("$Rp. 50.000.000,00$ \n");
+        printf("$Rp. 25.000.000,00$ \n");
+        printf("$Rp. 10.000.000,00$ \n");
+    }
 }
