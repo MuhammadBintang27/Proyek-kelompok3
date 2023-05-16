@@ -74,6 +74,77 @@ int main (int argc, char *argv[])
     }
 
     fclose(fp);
+  
+    printf("Selamat datang di Permainan \"SIAPA YANG MAU JADI MILIADER\"\n");
+    printf("Cara bermain: \n");
+    printf("1. Disediakan 10 Pertanyaan umum\n");
+    printf("2. Setiap pertanyaan memiliki 4 pilihan ganda\n");
+    printf("3. Setiap pertanyaan benar akan menaikan hadiahnya\n");
+    printf("4. Anda bisa BERHENTI dengan membawa hadiah yang sudah didapat atau LANJUT dengan risiko hadiah tersebut HANGUS\n");
+    printf("5. TOTAL HADIAH yang bisa didapatkan adalah Rp.1.000.000.000,00!\n\n");
+    
+    int mulai;
+    while(mulai < 1 || mulai > 2)
+    {
+        printf("PILIHAN\n");
+        printf("1 = MULAI\n");
+        printf("2 = KELUAR\n");
+        printf("MULAI/KELUAR:");
+        scanf("%d", &mulai);
+
+        if(mulai < 1 || mulai > 2)
+        {printf("tolong pilih dengan benar");}
+
+        if(mulai == 1)
+        {
+            int skor=0;
+            
+            printf("\n");
+            soal1(&skor);
+            hadiah(&skor);
+
+            printf("skor = %d", skor);
+            printf("\n");
+            soal2(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal3(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal4(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal5(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal6(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal7(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal8(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal9(&skor);
+            hadiah(&skor);
+
+            printf("\n");
+            soal10(&skor);
+            hadiah(&skor);
+        
+
+        }
+    }
+    
+}
 
 return 0;
 }
