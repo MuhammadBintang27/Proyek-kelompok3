@@ -110,49 +110,97 @@ int main (int argc, char *argv[])
         if(mulai == 1)
         {
             int skor=0;
-            
+            int salah=0;
+          
             printf("\n");
             soal1(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
-            printf("skor = %d", skor);
             printf("\n");
             soal2(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal3(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal4(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal5(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal6(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal7(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal8(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal9(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
 
             printf("\n");
             soal10(&skor);
+            printf("\n");
+            printf("Total Skor: %d\n", skor);
             hadiah(&skor);
-        
-
+            if(skor < ++salah)
+            {return EXIT_SUCCESS;}
+            printf("\n");
         }
     }
     return 0;
@@ -173,7 +221,8 @@ void soal1(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+      printf("jawaban salah!\n");
+      printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -190,10 +239,11 @@ void soal2(int *skor)
     if(jawaban[0] == 'B')
     {
         printf("JAWABAN BENAR!\n");
-        skor += 1;
+        *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+      printf("jawaban salah!\n");
+      printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -213,7 +263,8 @@ void soal3(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -233,7 +284,8 @@ void soal4(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -253,7 +305,8 @@ void soal5(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -273,7 +326,8 @@ void soal6(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -293,7 +347,8 @@ void soal7(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 void soal8(int *skor)
@@ -312,7 +367,8 @@ void soal8(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -332,7 +388,8 @@ void soal9(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
@@ -352,7 +409,8 @@ void soal10(int *skor)
         *skor += 1;
     }else
     {
-        printf("jawaban salah!\n");
+     printf("jawaban salah!\n");
+     printf("++++++++++++++++++++++++++TERIMA KASIH SUDAH BERMAIN++++++++++++++++++++++++++");
     }
 }
 
