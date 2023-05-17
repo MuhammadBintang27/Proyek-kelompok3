@@ -197,7 +197,7 @@ void soal2(int *skor)
     }
 }
 
-void soal3(intskor)
+void soal3(int *skor)
 {
     char jawaban[2];
     printf("3. Apa nama ibukota Australia ? \n");
