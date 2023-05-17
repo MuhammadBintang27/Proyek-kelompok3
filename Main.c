@@ -201,6 +201,8 @@ int main (int argc, char *argv[])
             if(skor < ++salah)
             {return EXIT_SUCCESS;}
             printf("\n");
+          
+            printf("$$$$$$$$$$$$$$$$$$$$$$$$ \"SELAMAT! ANDA MEMENANGKAN Rp. 1.000.000.000,00\" $$$$$$$$$$$$$$$$$$$$$$$$\n");
         }
     }
     return 0;
