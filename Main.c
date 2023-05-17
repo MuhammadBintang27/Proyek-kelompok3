@@ -4,6 +4,18 @@
 #define n 20
 #define N 40
 
+void soal1(int *skor);
+void soal2(int *skor);
+void soal3(int *skor);
+void soal4(int *skor);
+void soal5(int *skor);
+void soal6(int *skor);
+void soal7(int *skor);
+void soal8(int *skor);
+void soal9(int *skor);
+void soal10(int *skor);
+void hadiah(int *skor);
+
 int main (int argc, char *argv[])
 {
   //memeriksa kebenaran format login dan melakukan registrasi
