@@ -1,0 +1,5 @@
+1. Muhammad Bintang Indra Hidayat (2208107010023)
+2. Muhammad Habil Aswad (2208107010013)
+3. Aulia Vika Rahman (2208107010001)
+4. Muhammad Nabil Maulana (2208107010011)
+5. Sadinal Mufti (2208107910007)
